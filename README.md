@@ -1,4 +1,4 @@
-### Hi there 👋 I'm just testing this new feature from github.
+### Hi there 👋
 
 <!--
 **danielpipe2203/danielpipe2203** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
