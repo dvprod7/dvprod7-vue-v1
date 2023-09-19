@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-This is a large history, so I'll try to list what I'm looking and who I'am
+This is a long story so I'll try to list what I'm looking for and who I am.
 
 <!--
 **danielpipe2203/danielpipe2203** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
