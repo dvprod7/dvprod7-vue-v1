@@ -1,16 +1,5 @@
-### Hi there 👋
+# Vue 3 + Vite
 
-This is a long story so I'll try to list what I'm looking for and who I am.
+This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-<!--
-**danielpipe2203/danielpipe2203** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
-
-- 💻 Since I have memory, I've always been interested in computers and technology
-- 🎹 Besides the PCs and stuff, I've been envolved in music and audio engineering
-- 🧠 Now, I'm working harder to evolve in a new type of engineer who mixes code and music in a same branch
-- 🤔 I'm looking for a remote job in EU/UK/US/COL/WORLD
-- 🌱 I'm currently learning Phyton/Javascript/Angular/Cybersecurity/Linux/Networking
-- 🤘 I'm looking to collaborate on new high-growth projects.
-- 💬 Wanna chat? send me a message <a href="mailto:danieling2203@gmail.com">here</a>
-
+Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
