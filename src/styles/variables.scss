@@ -1,0 +1,48 @@
+// 🎨 Paleta de colores
+$primary-green: #F5F749;
+$primary-blue: #2E86AB;
+$bg-dark: #0D160B;
+$text-dark: #000000;
+$text-light: #ffffff;
+$grey: #DBDBDF;
+$bg-light: #ffffff;
+$alert-red: #720E07;
+$focus-ring: -webkit-focus-ring-color;
+
+// 🖋️ Tipografía
+@font-face {
+  font-family: 'VisueltPro-Bold';
+  src: url('/fonts/VisueltPro-Bold.woff2') format('woff2'), url('/fonts/VisueltPro-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'VisueltPro-Regular';
+  src: url('/fonts/VisueltPro-Regular.woff2') format('woff2'), url('/fonts/VisueltPro-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'VisueltPro-Light';
+  src: url('/fonts/VisueltPro-Light.woff2') format('woff2'), url('/fonts/VisueltPro-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+$VisueltBold: 'VisueltPro-Bold', sans-serif;
+$VisueltRegular: 'VisueltPro-Regular', sans-serif;
+$VisuelLight: 'VisueltPro-Light', sans-serif;
+
+// 📐 Sistema de columnas
+
+$grid-columns: 12;
+$gutter-width: 16px;
+$breakpoints: (
+  "sm": 640px,
+  "md": 768px,
+  "lg": 1024px,
+  "xl": 1280px,
+  "2xl": 1536px
+);

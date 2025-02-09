@@ -1,0 +1,85 @@
+@use '@/styles/variables' as *;
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    max-width: 100%;
+    width: 100%;
+    padding: 1.5rem 3rem;
+    background: $bg-dark;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .main-logo {
+        line-height: 0;
+    }
+
+    .menu-toggle {
+        display: none;
+        background: none;
+        border: none;
+        font-size: 2rem;
+        cursor: pointer;
+        @media (max-width: 768px) {
+            display: flex;
+        }
+    }
+  
+    .menu-items {
+        max-width: 100%;
+        display: flex;
+        gap: 1rem;
+        list-style: none;
+    
+        @media (max-width: 768px) {
+            flex-direction: column;
+            position: absolute;
+            top: 80px;
+            left: 0;
+            right: 0;
+            background: $bg-dark;
+            text-align: center;
+            padding: 1rem;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-20px);
+            transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out, visibility 0.3s;
+        }
+    
+        &.active {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .lng-container {
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+        }
+
+        .lng-button {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-family: $VisueltBold;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: $bg-light;
+            transition: color 0.25s;
+            &:hover {
+                color: $primary-green;
+            }
+            .flag-icon {
+                line-height: 0;
+            }
+        }
+    }
+}
+  

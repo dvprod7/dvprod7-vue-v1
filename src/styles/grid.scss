@@ -1,0 +1,42 @@
+@use './variables' as *;
+@use 'sass:math';
+
+// Contenedor principal
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 $gutter-width;
+}
+
+// Fila (row)
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 calc(math.div($gutter-width, -2));
+}
+
+// Columnas
+@for $i from 1 through $grid-columns {
+  $width: math.div($i, $grid-columns);
+
+  .col-#{$i} {
+    flex: 0 0 math.percentage($width);
+    max-width: math.percentage($width);
+    padding: 0 calc(math.div($gutter-width, 2));
+  }
+}
+
+// Generar clases responsivas
+@each $breakpoint, $size in $breakpoints {
+  @media (min-width: $size) {
+    @for $i from 1 through $grid-columns {
+      $width: math.div($i, $grid-columns);
+
+      .col-#{$breakpoint}-#{$i} {
+        flex: 0 0 math.percentage($width);
+        max-width: math.percentage($width);
+      }
+    }
+  }
+}
