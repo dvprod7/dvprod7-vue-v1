@@ -14,6 +14,28 @@
   display: flex;
   flex-wrap: wrap;
   margin: 0 calc(math.div($gutter-width, -2));
+  padding-left: 150px;
+  padding-right: 150px;
+
+  @media (max-width: 1200px) {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  @media (max-width: 992px) {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  @media (max-width: 768px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @media (max-width: 576px) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 // Columnas
@@ -39,4 +61,51 @@
       }
     }
   }
+}
+
+// Helpers para centrar columnas en la fila
+.center-content {
+  display: flex;
+  justify-content: center;
+}
+
+.start-content {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.end-content {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.around-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.between-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.evenly-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+// Alinear verticalmente
+.align-start {
+  display: flex;
+  align-items: flex-start;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.align-end {
+  display: flex;
+  align-items: flex-end;
 }

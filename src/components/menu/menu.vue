@@ -25,7 +25,7 @@ const toggleMenu = () => {
         <ul :class="{ 'menu-items': true, 'active': isOpen }">
             <li><a href="#">Sobre mí</a></li>
             <li><a href="#">Proyectos</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#contact">Contacto</a></li>
             <li class="lng-container">
                 <button class="lng-button">
                     <div class="flag-icon">
