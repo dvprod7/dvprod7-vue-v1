@@ -15,13 +15,14 @@
         h4 {
             font-family: $VisueltBold;
         }
+
         .contact-form {
             display: flex;
             flex-direction: column;
             height: 100%;
             justify-content: space-around;
             gap: 1rem;
-            
+
             input {
                 background: none;
                 border: 2px solid $primary-green;
@@ -30,7 +31,28 @@
                 color: $bg-light;
                 outline: none;
                 transition: border-color 0.3s ease, box-shadow 0.3s ease;
-                
+
+                &:focus {
+                    border-color: $primary-blue;
+                    box-shadow: 0 0 5px rgba(245, 247, 73, 0.5);
+                }
+            }
+
+            textarea {
+                width: 100%;
+                max-width: 100%;
+                min-width: 100%;
+                min-height: 50px;
+                width: 100%;
+                background: none;
+                border: 2px solid $primary-green;
+                border-radius: 0;
+                padding: 1rem 0.5rem;
+                color: $bg-light;
+                outline: none;
+                transition: border-color 0.3s ease, box-shadow 0.3s ease;
+                resize: vertical;
+
                 &:focus {
                     border-color: $primary-blue;
                     box-shadow: 0 0 5px rgba(245, 247, 73, 0.5);

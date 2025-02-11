@@ -22,7 +22,8 @@
                 <form action="" class="contact-form">
                     <input type="text" placeholder="Name">
                     <input type="email" placeholder="Email">
-                    <input type="text" placeholder="Message">
+                    <!-- <input type="text" placeholder="Message"> -->
+                    <textarea name="Message" id="" placeholder="Message"></textarea>
                     <button class="ui-btn">Send</button>
                 </form>
             </div>
