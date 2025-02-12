@@ -1,0 +1,18 @@
+@use '@/styles/variables' as *;
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+
+    .icon {
+        background-color: $primary-green;
+        border-radius: 100%;
+        padding: 10px;
+        line-height: 0;
+        transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+
+        &:hover {
+            transform: rotateY(360deg);
+        }
+    }
+}
