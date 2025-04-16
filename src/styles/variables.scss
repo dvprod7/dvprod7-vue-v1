@@ -8,6 +8,7 @@ $grey: #DBDBDF;
 $bg-light: #ffffff;
 $alert-red: #720E07;
 $focus-ring: -webkit-focus-ring-color;
+$navbar-height: 110px;
 
 // 🖋️ Tipografía
 @font-face {
@@ -17,6 +18,7 @@ $focus-ring: -webkit-focus-ring-color;
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'VisueltPro-Regular';
   src: url('/fonts/VisueltPro-Regular.woff2') format('woff2'), url('/fonts/VisueltPro-Regular.woff') format('woff');
@@ -24,6 +26,7 @@ $focus-ring: -webkit-focus-ring-color;
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'VisueltPro-Light';
   src: url('/fonts/VisueltPro-Light.woff2') format('woff2'), url('/fonts/VisueltPro-Light.woff') format('woff');
@@ -31,6 +34,7 @@ $focus-ring: -webkit-focus-ring-color;
   font-style: normal;
   font-display: swap;
 }
+
 $VisueltBold: 'VisueltPro-Bold', sans-serif;
 $VisueltRegular: 'VisueltPro-Regular', sans-serif;
 $VisuelLight: 'VisueltPro-Light', sans-serif;
