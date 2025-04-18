@@ -1,11 +1,13 @@
 <script setup>
 import { ref } from 'vue';
+import useI18n from '@/lang/useLang';
 
 const isOpen = ref(false);
 
 const toggleMenu = () => {
     isOpen.value = !isOpen.value;
 };
+const { t, setLanguage, language } = useI18n();
 </script>
 
 <template>
@@ -23,11 +25,11 @@ const toggleMenu = () => {
             ☰
         </button>
         <ul :class="{ 'menu-items': true, 'active': isOpen }">
-            <li><a href="#">Sobre mí</a></li>
-            <li><a href="#">Proyectos</a></li>
-            <li><a href="#contact">Contacto</a></li>
+            <li><a href="#">{{ t('menu.about') }}</a></li>
+            <li><a href="#">{{ t('menu.projects') }}</a></li>
+            <li><a href="#contact">{{ t('menu.contact') }}</a></li>
             <li class="lng-container">
-                <button class="lng-button">
+                <button @click="setLanguage('es')" class="lng-button" :class="{ active: language === 'es' }">
                     <div class="flag-icon">
                         <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_15_49)">
@@ -47,7 +49,7 @@ const toggleMenu = () => {
                     </div>
                     Esp
                 </button>
-                <button class="lng-button">
+                <button @click="setLanguage('en')" class="lng-button" :class="{ active: language === 'en' }">
                     <div class="flag-icon">
                         <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_15_54)">

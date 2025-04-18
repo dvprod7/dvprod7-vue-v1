@@ -16,6 +16,7 @@
     .main-logo {
         line-height: 0;
         transition: drop-shadow 0.3s ease;
+
         &:hover {
             filter: drop-shadow(0 0 2em $primary-green);
         }
@@ -27,17 +28,18 @@
         border: none;
         font-size: 2rem;
         cursor: pointer;
+
         @media (max-width: 768px) {
             display: flex;
         }
     }
-  
+
     .menu-items {
         max-width: 100%;
         display: flex;
         gap: 1rem;
         list-style: none;
-    
+
         @media (max-width: 768px) {
             flex-direction: column;
             position: absolute;
@@ -52,7 +54,7 @@
             transform: translateY(-20px);
             transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out, visibility 0.3s;
         }
-    
+
         &.active {
             opacity: 1;
             visibility: visible;
@@ -77,13 +79,18 @@
             text-transform: uppercase;
             color: $bg-light;
             transition: color 0.25s;
+
             &:hover {
                 color: $primary-green;
             }
+
             .flag-icon {
                 line-height: 0;
+            }
+
+            &.active {
+                color: $primary-green;
             }
         }
     }
 }
-  

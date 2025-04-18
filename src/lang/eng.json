@@ -1,0 +1,11 @@
+{
+  "menu": {
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "contact": {
+    "title": "Contáctame",
+    "send": "Enviar mensaje"
+  }
+}
