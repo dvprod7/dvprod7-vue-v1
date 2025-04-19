@@ -1,0 +1,35 @@
+<template>
+  <div class="skillcard">
+    <!-- SkillCard -->
+    <div class="icon-tech">
+      <svg width="47" height="50" viewBox="0 0 47 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g clip-path="url(#clip0_36_210)">
+          <path
+            d="M0.019043 8.368L23.116 0.128113L46.835 8.22149L42.9945 38.8189L23.116 49.8421L3.54854 38.9654L0.019043 8.368Z"
+            fill="white" />
+          <path d="M46.835 8.22149L23.116 0.128113V49.8421L42.9944 38.8373L46.835 8.22149Z" fill="white" />
+          <path
+            d="M23.1524 5.93274L8.76025 37.9951L14.1367 37.9035L17.0262 30.6706H29.9371L33.1009 37.9951L38.2395 38.0866L23.1524 5.93274ZM23.1891 16.2052L28.0535 26.3859H18.9096L23.1891 16.2052Z"
+            fill="#2E86AB" />
+        </g>
+        <defs>
+          <clipPath id="clip0_36_210">
+            <rect width="47" height="50" fill="white" />
+          </clipPath>
+        </defs>
+      </svg>
+    </div>
+    <h4>Front end with Angular</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam earum amet dolore blanditiis excepturi sunt
+      harum quidem iusto sint assumenda, officiis magni doloribus ratione quo iste a aliquid necessitatibus
+      consequuntur?</p>
+  </div>
+</template>
+
+<script setup>
+</script>
+
+<style lang="scss">
+@use '@/styles/grid';
+@use './SkillCard.scss';
+</style>

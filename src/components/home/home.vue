@@ -2,6 +2,7 @@
 // import { ref } from 'vue';  habilitar solo para cuando se necesiten estados reactivos
 import SocialLinks from '@/components/SocialLinks/SocialLinks.vue';
 import ProjectsCarousel from '@/components/ProjectsCarousel/ProjectsCarousel.vue';
+import ProjectDetail from '@/components/ProjectDetail/ProjectDetail.vue';
 </script>
 <template>
     <!-- Hero -->
@@ -59,6 +60,7 @@ import ProjectsCarousel from '@/components/ProjectsCarousel/ProjectsCarousel.vue
     <section id="projects">
         <ProjectsCarousel />
     </section>
+    <ProjectDetail />
 </template>
 
 <style lang="scss">
