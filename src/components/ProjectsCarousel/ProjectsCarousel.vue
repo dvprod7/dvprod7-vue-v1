@@ -31,7 +31,7 @@
               <div class="slide w-100" v-for="(group, index) in groupedProjects" :key="index">
                 <div class="row">
                   <div class="col-4" v-for="(project, idx) in group" :key="idx">
-                    <ProjectCard :project="project" />
+                    <ProjectCard :key="project.id" :project="project" @view-detail="goToDetail" />
                   </div>
                 </div>
               </div>
@@ -49,18 +49,41 @@
 </style>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, watch } from 'vue'
+import { useRouter } from 'vue-router'
 import ProjectCard from '@/components/ProjectCard/ProjectCard.vue'
-import projectsData from '@/data/projects.json'
+import useI18n from '@/lang/useLang'
 
-const projects = projectsData
+const { language } = useI18n()
+
 const currentSlide = ref(0)
+const projects = ref([])
+
+function loadProjects(lang) {
+  if (lang === 'es') {
+    import('@/data/projects_carousel.es.json').then((module) => {
+      projects.value = module.default
+    })
+  } else {
+    import('@/data/projects_carousel.en.json').then((module) => {
+      projects.value = module.default
+    })
+  }
+}
+
+// Cargar proyectos inicialmente según el idioma actual
+loadProjects(language.value)
+
+// Observar cambios en el idioma
+watch(language, (newLang) => {
+  loadProjects(newLang)
+})
 
 const groupedProjects = computed(() => {
   const chunkSize = 3
   const chunks = []
-  for (let i = 0; i < projects.length; i += chunkSize) {
-    chunks.push(projects.slice(i, i + chunkSize))
+  for (let i = 0; i < projects.value.length; i += chunkSize) {
+    chunks.push(projects.value.slice(i, i + chunkSize))
   }
   return chunks
 })
@@ -75,5 +98,11 @@ function prevSlide() {
   if (currentSlide.value > 0) {
     currentSlide.value--
   }
+}
+
+const router = useRouter()
+
+function goToDetail(id) {
+  router.push(`/project/${id}`)
 }
 </script>

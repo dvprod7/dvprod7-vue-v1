@@ -1,0 +1,82 @@
+[
+    {
+      "id": "project-1",
+      "title": "Project 1",
+      "description": "Lorem",
+      "thumbnail": "/images/projects/cursos.png",
+      "stack": ["Vue", "Firebase", "Tailwind CSS"],
+      "skills": [
+        {
+          "name": "Vue 3",
+          "description": "Arquitectura basada en componentes y uso de Composition API para la lógica."
+        },
+        {
+          "name": "Firebase",
+          "description": "Autenticación, base de datos en tiempo real y despliegue."
+        },
+        {
+          "name": "Tailwind CSS",
+          "description": "Diseño responsivo con clases utilitarias."
+        }
+      ],
+      "url": "https://cursos-online.dev",
+      "repo": "https://github.com/tuusuario/cursos-online"
+    },
+    {
+      "id": "Project 2",
+      "title": "Project 2",
+      "description": "Lorem",
+      "thumbnail": "/images/projects/blog.png",
+      "stack": ["Nuxt", "Markdown", "SCSS"],
+      "skills": [
+        {
+          "name": "Nuxt.js",
+          "description": "Renderizado SSR y generación de contenido estático."
+        },
+        {
+          "name": "SCSS",
+          "description": "Uso de variables, mixins y organización modular del CSS."
+        }
+      ],
+      "url": "https://blog.dev",
+      "repo": "https://github.com/tuusuario/blog"
+    },
+    {
+        "id": "project-3",
+        "title": "Project 3",
+        "description": "Lorem",
+        "thumbnail": "/images/projects/blog.png",
+        "stack": ["Nuxt", "Markdown", "SCSS"],
+        "skills": [
+          {
+            "name": "Nuxt.js",
+            "description": "Renderizado SSR y generación de contenido estático."
+          },
+          {
+            "name": "SCSS",
+            "description": "Uso de variables, mixins y organización modular del CSS."
+          }
+        ],
+        "url": "https://blog.dev",
+        "repo": "https://github.com/tuusuario/blog"
+    },
+    {
+      "id": "project-4",
+      "title": "Project 4",
+      "description": "Lorem 4",
+      "thumbnail": "/images/projects/blog.png",
+      "stack": ["Nuxt", "Markdown", "SCSS"],
+      "skills": [
+        {
+          "name": "Nuxt.js",
+          "description": "Renderizado SSR y generación de contenido estático."
+        },
+        {
+          "name": "SCSS",
+          "description": "Uso de variables, mixins y organización modular del CSS."
+        }
+      ],
+      "url": "https://blog.dev",
+      "repo": "https://github.com/tuusuario/blog"
+  }
+]  

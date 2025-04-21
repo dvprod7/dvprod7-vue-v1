@@ -1,0 +1,39 @@
+[
+    {
+      "id": "project-1",
+      "title": "Dubtoast Ecommerce",
+      "tags": ["Angular", "Django"],
+      "description": "ENG Modern Portfolio.",
+      "image": "/images/project1.jpg",
+      "viewUrl": "#",
+      "codeUrl": "#"
+    },
+    {
+      "id": "project-2",
+      "title": "NextPortfolio",
+      "tags": ["React", "Next.js"],
+      "description": "ENG Modern Portfolio.",
+      "image": "/images/project2.jpg",
+      "viewUrl": "#",
+      "codeUrl": "#"
+    },
+    {
+      "id": "project-3",
+      "title": "Music AI",
+      "tags": ["Vue", "Node.js"],
+      "description": "ENG Modern Portfolio.",
+      "image": "/images/project3.jpg",
+      "viewUrl": "#",
+      "codeUrl": "#"
+    },
+    {
+      "id": "project-4",
+      "title": "React Dashboard",
+      "tags": ["React", "Express.js"],
+      "description": "ENG Modern Portfolio.",
+      "image": "/images/project3.jpg",
+      "viewUrl": "#",
+      "codeUrl": "#"
+    }
+  ]
+  

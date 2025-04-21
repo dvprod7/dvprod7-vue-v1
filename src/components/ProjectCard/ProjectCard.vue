@@ -9,15 +9,17 @@
         </span>
       </div>
       <p class="text-sm mb-4">{{ project.description }}</p>
-      <div class="flex gap-2">
-        <a :href="project.viewUrl" class="bg-lime-500 px-3 py-1 rounded text-black text-sm font-semibold">View
-          Project</a>
-        <a :href="project.codeUrl" class="bg-blue-400 px-3 py-1 rounded text-black text-sm font-semibold">View Code</a>
+      <div style="display: flex;flex-direction: column;">
+        <button @click="console.log('ID del proyecto:', project.id); $emit('view-detail', project.id)"
+          class="ui-btn">View Project</button>
+        <a :href="project.codeUrl" class="ui-btn">View Code</a>
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
-defineProps(['project']);
+defineProps({
+  project: Object
+})
 </script>
