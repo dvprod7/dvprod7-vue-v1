@@ -1,30 +1,49 @@
 [
-    {
-      "id": "project-1",
-      "title": "Plataforma de Cursos Online",
-      "description": "Una aplicación web para gestión de cursos, usuarios y progreso del estudiante.",
-      "thumbnail": "/images/projects/cursos.png",
-      "stack": ["Vue", "Firebase", "Tailwind CSS"],
-      "skills": [
-        {
-          "name": "Vue 3",
-          "description": "Arquitectura basada en componentes y uso de Composition API para la lógica."
-        },
-        {
-          "name": "Firebase",
-          "description": "Autenticación, base de datos en tiempo real y despliegue."
-        },
-        {
-          "name": "Tailwind CSS",
-          "description": "Diseño responsivo con clases utilitarias."
-        }
-      ],
-      "url": "https://cursos-online.dev",
-      "repo": "https://github.com/tuusuario/cursos-online"
-    },
-    {
-      "id": "project-2",
-      "title": "Blog Personal",
+  {
+    "id": 1,
+    "title": "Plataforma de Cursos Online",
+    "description": "Una aplicación web para gestión de cursos, usuarios y progreso del estudiante.",
+    "thumbnail": "/images/projects/cursos.png",
+    "stack": ["Vue", "Firebase", "Tailwind CSS"],
+    "skills": [
+      {
+        "name": "Vue 3",
+        "description": "Arquitectura basada en componentes y uso de Composition API para la lógica."
+      },
+      {
+        "name": "Firebase",
+        "description": "Autenticación, base de datos en tiempo real y despliegue."
+      },
+      {
+        "name": "Tailwind CSS",
+        "description": "Diseño responsivo con clases utilitarias."
+      }
+    ],
+    "url": "https://cursos-online.dev",
+    "repo": "https://github.com/tuusuario/cursos-online"
+  },
+  {
+    "id": 2,
+    "title": "Blog Personal 2",
+    "description": "Blog minimalista para publicar artículos técnicos con markdown.",
+    "thumbnail": "/images/projects/blog.png",
+    "stack": ["Nuxt", "Markdown", "SCSS"],
+    "skills": [
+      {
+        "name": "Nuxt.js",
+        "description": "Renderizado SSR y generación de contenido estático."
+      },
+      {
+        "name": "SCSS",
+        "description": "Uso de variables, mixins y organización modular del CSS."
+      }
+    ],
+    "url": "https://blog.dev",
+    "repo": "https://github.com/tuusuario/blog"
+  },
+  {
+      "id": 3,
+      "title": "Blog Personal 3",
       "description": "Blog minimalista para publicar artículos técnicos con markdown.",
       "thumbnail": "/images/projects/blog.png",
       "stack": ["Nuxt", "Markdown", "SCSS"],
@@ -40,24 +59,24 @@
       ],
       "url": "https://blog.dev",
       "repo": "https://github.com/tuusuario/blog"
-    },
-    {
-        "id": "project-3",
-        "title": "Blog Personal",
-        "description": "Blog minimalista para publicar artículos técnicos con markdown.",
-        "thumbnail": "/images/projects/blog.png",
-        "stack": ["Nuxt", "Markdown", "SCSS"],
-        "skills": [
-          {
-            "name": "Nuxt.js",
-            "description": "Renderizado SSR y generación de contenido estático."
-          },
-          {
-            "name": "SCSS",
-            "description": "Uso de variables, mixins y organización modular del CSS."
-          }
-        ],
-        "url": "https://blog.dev",
-        "repo": "https://github.com/tuusuario/blog"
-    }
+  },
+  {
+    "id": 4,
+    "title": "Blog Personal 4",
+    "description": "Blog minimalista para publicar artículos técnicos con markdown.",
+    "thumbnail": "/images/projects/blog.png",
+    "stack": ["Nuxt", "Markdown", "SCSS"],
+    "skills": [
+      {
+        "name": "Nuxt.js",
+        "description": "Renderizado SSR y generación de contenido estático."
+      },
+      {
+        "name": "SCSS",
+        "description": "Uso de variables, mixins y organización modular del CSS."
+      }
+    ],
+    "url": "https://blog.dev",
+    "repo": "https://github.com/tuusuario/blog"
+  }
 ]  

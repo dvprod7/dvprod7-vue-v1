@@ -1,35 +1,9 @@
+<!-- src/views/ProjectDetail.vue -->
 <template>
-  <!-- Project Hero -->
   <div v-if="project">
-    <section class="project-hero">
-      <div class="row center-content">
-        <div class="col-12 col-md-6">
-          <h2 class="main-title">{{ project.title }}</h2>
-          <div class="tech-pills">
-            <span>{{ project.skills.name }}</span>
-          </div>
-          <p class="description">
-            {{ project.description }}
-          </p>
-          <div class="call-to-action center-content start-content">
-            <button class="ui-btn">View Demo</button>
-            <button class="ui-btn">View Code</button>
-            <button class="ui-btn dark-btn">Hire me 😎</button>
-          </div>
-        </div>
-        <div class="col-12 col-md-6">
-          <img src="../../assets/project-temp.jpg" alt="Temp">
-        </div>
-      </div>
-    </section>
-    <!-- Habilidades -->
-    <section class="skills-main">
-      <div class="row">
-        <div class="col-12 col-md-4">
-          <div class="skillcard"></div>
-        </div>
-      </div>
-    </section>
+    <h2>{{ project.title }}</h2>
+    <p>{{ project.description }}</p>
+    <!-- aquí pones más contenido si quieres -->
   </div>
   <div v-else>
     <p>Proyecto no encontrado</p>
@@ -37,33 +11,30 @@
 </template>
 
 <script setup>
+import { computed, watch } from 'vue'
 import { useRoute } from 'vue-router'
-import { computed } from 'vue'
 import useI18n from '@/lang/useLang'
+import projectsDataEs from '@/data/projects_details.es.json'
+import projectsDataEn from '@/data/projects_details.en.json'
 
-// Idioma activo
+const route = useRoute()
 const { language } = useI18n()
 
-// Capturar el ID desde la URL
-const route = useRoute()
-const projectId = route.params.id
-
-// Importar los JSON
-import projectsDataES from '@/data/projects_details.es.json'
-import projectsDataEN from '@/data/projects_details.en.json'
-
-// Computar los proyectos según el idioma
+// Decidir cuál lista de proyectos usar según el idioma
 const selectedProjects = computed(() => {
-  return language.value === 'es' ? projectsDataES : projectsDataEN
+  return language.value === 'es' ? projectsDataEs : projectsDataEn
 })
 
-// Buscar el proyecto por ID
-const project = computed(() =>
-  selectedProjects.value.find(p => p.id === projectId)
-)
-</script>
+// Capturamos el ID desde la URL y lo convertimos a número
+const projectId = computed(() => Number(route.params.id))
 
-<style lang="scss">
-@use '@/styles/grid';
-@use './ProjectDetail.scss';
-</style>
+// Buscamos el proyecto por id en la lista correcta
+const project = computed(() => {
+  return selectedProjects.value.find(p => p.id === projectId.value)
+})
+
+// Solo para debug
+watch(project, (val) => {
+  console.log('Proyecto encontrado:', val)
+})
+</script>

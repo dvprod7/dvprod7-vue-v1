@@ -103,6 +103,7 @@ function prevSlide() {
 const router = useRouter()
 
 function goToDetail(id) {
+  console.log('ID recibido:', id)
   router.push(`/project/${id}`)
 }
 </script>

@@ -10,8 +10,7 @@
       </div>
       <p class="text-sm mb-4">{{ project.description }}</p>
       <div style="display: flex;flex-direction: column;">
-        <button @click="console.log('ID del proyecto:', project.id); $emit('view-detail', project.id)"
-          class="ui-btn">View Project</button>
+        <button @click="viewProject" class="ui-btn">View Project</button>
         <a :href="project.codeUrl" class="ui-btn">View Code</a>
       </div>
     </div>
@@ -19,7 +18,20 @@
 </template>
 
 <script setup>
-defineProps({
-  project: Object
+import { useRouter } from 'vue-router'
+import { defineProps } from 'vue'
+
+const props = defineProps({
+  project: {
+    type: Object,
+    required: true
+  }
 })
+
+const router = useRouter()
+
+function viewProject() {
+  console.log('Clic en proyecto:', props.project.id) // 👈🏼 DEBUG
+  router.push(`/project/${props.project.id}`)
+}
 </script>
