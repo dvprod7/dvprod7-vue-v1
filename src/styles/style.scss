@@ -65,6 +65,14 @@ h6 {
   line-height: 1.1;
 }
 
+.img-fluid {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
 .ui-btn {
   border-radius: 0;
   border: 1px solid transparent;
@@ -100,6 +108,33 @@ h6 {
       outline: 4px auto -webkit-focus-ring-color;
     }
   }
+
+  &--sm {
+    padding: 0.25rem 0.75rem;
+    font-size: 0.875rem;
+    margin-right: 0.5rem;
+  }
+
+  &--md {
+    width: 25%;
+    font-size: 1rem;
+    margin-right: 0.75rem;
+  }
+
+  &--lg {
+    width: 50%;
+    font-size: 1.125rem;
+    margin-right: 1rem;
+  }
+
+  &:last-child {
+    margin-right: 0; // El último botón no tiene margen extra
+  }
+}
+
+.button-group {
+  display: flex;
+  gap: 0.75rem;
 }
 
 #app {

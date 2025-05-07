@@ -1,5 +1,48 @@
 @use '@/styles/variables' as *;
 
-.hero {
-    margin-top: $navbar-height;
+.hero__container {
+    margin-top: $navbar-height + 150px;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+
+    .name-txt__container {
+        .name-txt__title {
+            position: relative;
+
+            h2 {
+                display: inline-block;
+                margin: 0.8rem 0 0.8rem 0;
+            }
+
+            .name {
+                font-size: 3rem;
+            }
+
+            hr {
+                position: absolute;
+                width: 83%;
+                top: 46%;
+                border: 2px solid $primary-blue;
+                margin: 0;
+            }
+
+            .profession {
+                font-family: $VisuelLight;
+                font-size: 3rem;
+            }
+        }
+    }
+
+    .hero-img {
+        img {
+            @media (min-width: 992px) {
+                width: 60%;
+            }
+        }
+    }
+
+    @media (max-width: 992px) {
+        margin-top: $navbar-height + 80px;
+    }
 }
