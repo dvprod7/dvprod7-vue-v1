@@ -4,7 +4,7 @@
     "title": "Dubtoast Ecommerce",
     "tags": ["Angular", "Django"],
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "image": "/images/project1.jpg",
+    "image": "/src/assets/project-temp.jpg",
     "viewUrl": "#",
     "codeUrl": "#"
   },
@@ -13,7 +13,7 @@
     "title": "NextPortfolio",
     "tags": ["React", "Next.js"],
     "description": "Portafolio moderno con SSR y animaciones suaves.",
-    "image": "/images/project2.jpg",
+    "image": "/src/assets/project-temp.jpg",
     "viewUrl": "#",
     "codeUrl": "#"
   },
@@ -22,7 +22,7 @@
     "title": "Music AI",
     "tags": ["Vue", "Node.js"],
     "description": "App para generación de música con IA.",
-    "image": "/images/project3.jpg",
+    "image": "/src/assets/project-temp.jpg",
     "viewUrl": "#",
     "codeUrl": "#"
   },
@@ -31,7 +31,7 @@
     "title": "React Dashboard",
     "tags": ["React", "Express.js"],
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "image": "/images/project3.jpg",
+    "image": "/src/assets/project-temp.jpg",
     "viewUrl": "#",
     "codeUrl": "#"
   }

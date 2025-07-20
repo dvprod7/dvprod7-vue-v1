@@ -21,19 +21,15 @@
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-12">
-        <div class="carousel-wrapper position-relative">
-          <!-- Carrusel -->
-          <div class="carousel-inner overflow-hidden">
-            <div class="carousel-track d-flex transition" :style="{ transform: `translateX(-${currentSlide * 100}%)` }">
-              <!-- Cada slide con 3 proyectos -->
-              <div class="slide w-100" v-for="(group, index) in groupedProjects" :key="index">
-                <div class="row">
-                  <div class="col-4" v-for="(project, idx) in group" :key="idx">
-                    <ProjectCard :key="project.id" :project="project" @view-detail="goToDetail" />
-                  </div>
-                </div>
+    <div class="row carousel-wrapper">
+      <!-- Carrusel -->
+      <div class="carousel-inner">
+        <div class="carousel-track" :style="{ transform: `translateX(-${currentSlide * 100}%)` }">
+          <div class="slide" v-for="(group, index) in groupedProjects" :key="index">
+            <div class="row">
+              <div class="card__container" :class="isMobile ? 'col-12' : 'col-md-4'" v-for="(project, idx) in group"
+                :key="idx">
+                <ProjectCard :key="project.id" :project="project" @view-detail="goToDetail" />
               </div>
             </div>
           </div>
@@ -49,7 +45,7 @@
 </style>
 
 <script setup>
-import { ref, computed, watch } from 'vue'
+import { ref, computed, watch, onMounted, onBeforeUnmount } from 'vue'
 import { useRouter } from 'vue-router'
 import ProjectCard from '@/components/ProjectCard/ProjectCard.vue'
 import useI18n from '@/lang/useLang'
@@ -58,6 +54,20 @@ const { language } = useI18n()
 
 const currentSlide = ref(0)
 const projects = ref([])
+const isMobile = ref(false)
+
+function handleResize() {
+  isMobile.value = window.innerWidth <= 768
+}
+
+onMounted(() => {
+  handleResize()
+  window.addEventListener('resize', handleResize)
+})
+
+onBeforeUnmount(() => {
+  window.removeEventListener('resize', handleResize)
+})
 
 function loadProjects(lang) {
   if (lang === 'es') {
@@ -80,10 +90,10 @@ watch(language, (newLang) => {
 })
 
 const groupedProjects = computed(() => {
-  const chunkSize = 3
+  const size = isMobile.value ? 1 : 3
   const chunks = []
-  for (let i = 0; i < projects.value.length; i += chunkSize) {
-    chunks.push(projects.value.slice(i, i + chunkSize))
+  for (let i = 0; i < projects.value.length; i += size) {
+    chunks.push(projects.value.slice(i, i + size))
   }
   return chunks
 })

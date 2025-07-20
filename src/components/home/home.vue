@@ -2,6 +2,7 @@
 import SocialLinks from '@/components/SocialLinks/SocialLinks.vue';
 import ProjectsCarousel from '@/components/ProjectsCarousel/ProjectsCarousel.vue';
 import ProjectDetail from '@/components/ProjectDetail/ProjectDetail.vue';
+import RotatingImages from '@/components/RotatingImages/RotatingImages.vue';
 </script>
 <template>
     <!-- Hero -->
@@ -12,7 +13,6 @@ import ProjectDetail from '@/components/ProjectDetail/ProjectDetail.vue';
                     <span>Hi, I’m</span>
                     <div class="name-txt__title">
                         <h2 class="name">DANIEL VALENZUELA</h2>
-                        <hr>
                         <h2 class="profession">FRONT END DEVELOPER</h2>
                     </div>
                 </div>
@@ -33,13 +33,10 @@ import ProjectDetail from '@/components/ProjectDetail/ProjectDetail.vue';
         </div>
     </section>
     <!-- About -->
-    <section class="about" id="about-section">
+    <section class="about__container" id="about-section">
         <div class="row center-content">
-            <div class="col-12 col-md-6">
-                <img src="../../assets/profile-alt-dv-1.jpg" alt="" style="position: absolute;left: 0;width: 250px;">
-                <img src="../../assets/profile-alt-dv-2.jpg" alt="" style="position: absolute;left: 50px;width: 250px;">
-                <img src="../../assets/profile-alt-dv-3.jpg" alt=""
-                    style="position: absolute;left: 100px;width: 250px;">
+            <div class="col-12 col-md-6 imgs__container">
+                <RotatingImages />
             </div>
             <div class="col-12 col-md-6">
                 <div class="about-txt">
