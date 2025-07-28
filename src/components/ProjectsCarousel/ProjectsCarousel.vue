@@ -21,7 +21,7 @@
         </div>
       </div>
     </div>
-    <div class="row carousel-wrapper">
+    <div class="row carousel-wrapper center-content">
       <!-- Carrusel -->
       <div class="carousel-inner">
         <div class="carousel-track" :style="{ transform: `translateX(-${currentSlide * 100}%)` }">

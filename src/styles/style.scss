@@ -45,7 +45,6 @@ body {
 a {
   font-family: $VisueltBold;
   font-weight: bold;
-  text-transform: uppercase;
   text-decoration: none;
   color: $bg-light;
   transition: color 0.25s;
@@ -82,6 +81,7 @@ h6 {
   background-color: $primary-green;
   color: $bg-dark;
   cursor: pointer;
+  text-align: center;
   transition: background-color 0.3s ease, color 0.3s ease;
 
   &:hover {
@@ -146,9 +146,9 @@ h6 {
   display: inline-block;
   padding: 0.25rem 0.6rem;
   font-size: 0.75rem;
+  font-family: $VisueltBold;
   color: $text-dark;
   background-color: $primary-green;
-  text-transform: uppercase;
   white-space: nowrap;
   margin-right: 0.5rem;
   margin-bottom: 0.25rem;

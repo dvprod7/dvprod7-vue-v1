@@ -4,7 +4,7 @@ import ProjectDetail from '@/components/ProjectDetail/ProjectDetail.vue'
 
 const routes = [
   { path: '/', name: 'Home', component: Home },
-  { path: '/project/:id', name: 'ProjectDetail', component: ProjectDetail },
+  { path: '/project/:id', name: 'ProjectDetail', component: ProjectDetail, props: true, },
 ];
 
 const router = createRouter({

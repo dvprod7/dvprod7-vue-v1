@@ -1,7 +1,6 @@
 <script setup>
 import SocialLinks from '@/components/SocialLinks/SocialLinks.vue';
 import ProjectsCarousel from '@/components/ProjectsCarousel/ProjectsCarousel.vue';
-import ProjectDetail from '@/components/ProjectDetail/ProjectDetail.vue';
 import RotatingImages from '@/components/RotatingImages/RotatingImages.vue';
 </script>
 <template>
@@ -55,10 +54,9 @@ import RotatingImages from '@/components/RotatingImages/RotatingImages.vue';
         </div>
     </section>
     <!-- Projects -->
-    <section id="projects">
+    <section class="projects__container" id="projects">
         <ProjectsCarousel />
     </section>
-    <ProjectDetail />
 </template>
 
 <style lang="scss">

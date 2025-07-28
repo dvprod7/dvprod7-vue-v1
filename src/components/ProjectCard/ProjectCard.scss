@@ -49,6 +49,7 @@
   }
 
   .card__info {
+    width: 100%;
     position: relative;
     z-index: 3;
     color: white;
@@ -65,8 +66,8 @@
       display: flex;
       gap: 10px;
 
-      .ui-btn {
-        font-size: 0.9rem;
+      .card__btn {
+        font-size: 0.85rem;
         width: 50%;
       }
     }
