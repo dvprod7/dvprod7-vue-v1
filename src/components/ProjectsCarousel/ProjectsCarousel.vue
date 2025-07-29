@@ -71,11 +71,11 @@ onBeforeUnmount(() => {
 
 function loadProjects(lang) {
   if (lang === 'es') {
-    import('@/data/projects_carousel.es.json').then((module) => {
+    import('@/data/projects.es.json').then((module) => {
       projects.value = module.default
     })
   } else {
-    import('@/data/projects_carousel.en.json').then((module) => {
+    import('@/data/projects.en.json').then((module) => {
       projects.value = module.default
     })
   }

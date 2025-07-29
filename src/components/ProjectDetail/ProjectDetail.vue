@@ -27,8 +27,8 @@
 import { computed, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import useI18n from '@/lang/useLang'
-import projectsDataEs from '@/data/projects_details.es.json'
-import projectsDataEn from '@/data/projects_details.en.json'
+import projectsDataEs from '@/data/projects.es.json'
+import projectsDataEn from '@/data/projects.en.json'
 
 const route = useRoute()
 const { language } = useI18n()
