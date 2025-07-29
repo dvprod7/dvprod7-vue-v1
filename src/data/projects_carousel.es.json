@@ -2,11 +2,10 @@
   {
     "id": 1,
     "title": "Dubtoast Ecommerce",
-    "tags": ["Angular", "Django"],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "tags": ["Angular", "Bootstrap", "Firebase"],
+    "description": "Dubtoast Store es un proyecto personal de ecommerce especializado en la venta de beats musicales y combos de producción musical.",
     "image": "/src/assets/project-temp.jpg",
-    "viewUrl": "#",
-    "codeUrl": "#"
+    "codeUrl": "https://github.com/dvprod7/dubtoast-store"
   },
   {
     "id": 2,

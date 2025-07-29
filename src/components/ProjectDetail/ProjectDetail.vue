@@ -1,14 +1,27 @@
-<!-- src/views/ProjectDetail.vue -->
 <template>
   <div v-if="project">
-    <h2>{{ project.title }}</h2>
-    <p>{{ project.description }}</p>
-    <!-- aquí pones más contenido si quieres -->
+    <!-- Hero -->
+    <section class="project-hero__container">
+      <div class="row center-content">
+        <div class="col-12 col-md-6">
+          <h2>{{ project.title }}</h2>
+          <p v-html="project.description"></p>
+        </div>
+        <div class="col-12 col-md-6 center-content hero-img">
+          <img src="../../assets/profile.jpg" alt="Temp" class="img-fluid">
+        </div>
+      </div>
+    </section>
   </div>
   <div v-else>
     <p>Proyecto no encontrado</p>
   </div>
 </template>
+
+<style lang="scss">
+@use '@/styles/grid';
+@use './ProjectDetail';
+</style>
 
 <script setup>
 import { computed, watch } from 'vue'

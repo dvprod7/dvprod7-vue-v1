@@ -1,4 +1,8 @@
 @use '@/styles/variables' as *;
-.projectdetail {
-  // Estilos de ProjectDetail  
+
+.project-hero__container {
+  margin-top: 260px;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
 }

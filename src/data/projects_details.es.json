@@ -1,41 +1,48 @@
 [
   {
     "id": 1,
-    "title": "Plataforma de Cursos Online",
-    "description": "Una aplicación web para gestión de cursos, usuarios y progreso del estudiante.",
-    "thumbnail": "/images/projects/cursos.png",
-    "stack": ["Vue", "Firebase", "Tailwind CSS"],
+    "title": "Dubtoast Ecommerce",
+    "description": "Dubtoast Store es un proyecto personal de ecommerce especializado en la venta de beats musicales y combos de producción musical. Fue desarrollado desde cero con Angular como reto autodidacta, con el objetivo de evitar plataformas como WordPress o WooCommerce, y así explorar de forma profunda cómo construir una tienda digital completa sin depender de soluciones prefabricadas.<br><br> La interfaz incluye animaciones suaves, filtros laterales funcionales, carrito de compras con interacción en tiempo real y una vista de detalle por producto. El diseño está pensado para ofrecer una experiencia minimalista y enfocada en el productor musical.",
+    "thumbnail": "/src/assets/project-temp.jpg",
+    "stack": ["Angular", "Bootstrap", "Firebase"],
     "skills": [
       {
-        "name": "Vue 3",
-        "description": "Arquitectura basada en componentes y uso de Composition API para la lógica."
+        "name": "Angular",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?",
+        "icon": "/src/assets/vue.svg"
+      },
+      {
+        "name": "Bootstrap",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?",
+        "icon": "/src/assets/vue.svg"
       },
       {
         "name": "Firebase",
-        "description": "Autenticación, base de datos en tiempo real y despliegue."
-      },
-      {
-        "name": "Tailwind CSS",
-        "description": "Diseño responsivo con clases utilitarias."
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?",
+        "icon": "/src/assets/vue.svg"
       }
     ],
-    "url": "https://cursos-online.dev",
-    "repo": "https://github.com/tuusuario/cursos-online"
+    "url": "https://dubtoaststore.web.app/",
+    "repo": "https://github.com/dvprod7/dubtoast-store"
   },
   {
     "id": 2,
-    "title": "Blog Personal 2",
-    "description": "Blog minimalista para publicar artículos técnicos con markdown.",
-    "thumbnail": "/images/projects/blog.png",
-    "stack": ["Nuxt", "Markdown", "SCSS"],
+    "title": "Portafolio dvprod7",
+    "description": "Este proyecto es mi portafolio personal, diseñado como una single-page application (SPA) desarrollada con Vue.js. Su propósito es presentar de forma clara y atractiva quién soy, mi experiencia profesional y algunos de los proyectos más representativos en los que he trabajado. Fue construido con un enfoque en el rendimiento, la escalabilidad y el diseño responsivo, buscando una navegación fluida y una experiencia intuitiva tanto en dispositivos móviles como de escritorio. Además de ser una vitrina de mi trabajo, este portafolio refleja mi estilo de desarrollo, mis principios de diseño y mi compromiso con escribir código limpio y mantenible.",
+    "thumbnail": "/src/assets/project-temp.jpg",
+    "stack": ["VueJS", "SCSS", "UI/UX"],
     "skills": [
       {
-        "name": "Nuxt.js",
-        "description": "Renderizado SSR y generación de contenido estático."
+        "name": "Vue.js",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?."
       },
       {
         "name": "SCSS",
-        "description": "Uso de variables, mixins y organización modular del CSS."
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?"
+      },
+      {
+        "name": "UI/UX",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?"
       }
     ],
     "url": "https://blog.dev",
