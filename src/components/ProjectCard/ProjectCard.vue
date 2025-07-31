@@ -4,7 +4,7 @@
     <div class="card__info">
       <h2 class="card__title">{{ project.title }}</h2>
       <div class="card__tech-badge">
-        <span class="badge" v-for="(tag, i) in project.tags" :key="i">
+        <span class="badge" v-for="(tag, i) in project.badge" :key="i">
           {{ tag }}
         </span>
       </div>

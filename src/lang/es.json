@@ -1,11 +1,33 @@
 {
-    "menu": {
-      "about": "Sobre mí",
-      "projects": "Proyectos",
-      "contact": "Contacto"
-    },
-    "contact": {
-      "title": "Contáctame",
-      "send": "Enviar mensaje"
+  "menu": {
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "description": "👋 ¡Hola! Soy Daniel, desarrollador frontend con una sólida formación en diseño UI/UX y estrategia digital. He colaborado con importantes marcas de Latinoamérica en proyectos que combinan código limpio, diseño meticuloso y un impacto en el marketing. <br><br>Me especializo en crear interfaces rápidas, responsivas y visualmente pulidas con Vue, Angular y React. También cuento con la certificación Meta Digital Associate/Media Buying Professional 💼 y experiencia práctica liderando campañas digitales y optimizando la experiencia del usuario. <br><br>Mi trabajo se basa en la creatividad, la precisión y el deseo de hacer que la tecnología sea intuitiva y centrada en el usuario. Me encanta aprender, colaborar y ayudar a otros a crecer, ya sea a través del diseño, el código o la estrategia. <br><br>¡Hablemos!",
+    "projectsTXT": "Proyectos",
+    "hiremeTXT": "Contrátame 😎"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "description": "¡Hola! Soy Daniel, un desarrollador web apasionado con casi una década de experiencia en el mundo digital. Desde 2015 he estado involucrado en la creación de sitios web e interfaces digitales, combinando diseño, estrategia y tecnología para construir experiencias significativas para los usuarios.<br><br>Actualmente me especializo en desarrollo frontend, pero mi trayectoria también incluye roles como diseñador multimedia, diseñador de interfaces y diseñador web. Me gusta aportar en cada proyecto desde todas las perspectivas posibles: técnica, experiencia de usuario, diseño visual y estrategia de impacto.<br><br>Me motiva profundamente crear tecnología útil, intuitiva y que realmente ayude a las personas. Disfruto trabajar en proyectos claros, ordenados, con una visión definida y un propósito real.<br><br>Fuera del código, también soy una persona creativa: en mi tiempo libre me gusta desarrollar ideas personales o producir música que mezcla sonidos del rock con lo electrónico.<br><br>A futuro, mi meta es convertirme en un desarrollador full-stack o de software integral, capaz de crear soluciones sólidas y efectivas para cualquier plataforma.",
+    "cvbtnTXT": "Descargar CV"
+  },
+  "projects": {
+    "title": "Proyectos"
+  },
+  "contact": {
+    "title": "Contáctame",
+    "subtitle": "Tomémonos un café 🍵",
+    "description": "¿Necesitas ayuda construyendo una interfaz sólida, optimizada y bien estructurada?<br>Estoy listo para aportar mi experiencia en desarrollo frontend.",
+    "ctaTXT": "¡Sígueme en las redes sociales!",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "message": "Mensaje",
+      "btn": "Enviar"
     }
+  }
 }

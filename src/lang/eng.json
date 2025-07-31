@@ -4,8 +4,30 @@
     "projects": "Projects",
     "contact": "Contact"
   },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "description": "👋 Hi! I'm Daniel, a frontend developer with a strong foundation in UI/UX design and digital strategy. I’ve collaborated with top brands across Latin America on projects that blend clean code, thoughtful design, and marketing impact. <br><br>I specialize in building fast, responsive, and visually polished interfaces using Vue, Angular, and React. I’m also Meta-certified Digital Associate/Media Buying Professional 💼, with hands-on experience leading digital campaigns and optimizing user journeys. <br><br>My work is driven by creativity, precision, and a desire to make technology intuitive and human-centered. I love learning, collaborating, and helping others grow — whether through design, code, or strategy. <br><br>Let’s connect!",
+    "projectsTXT": "Projects",
+    "hiremeTXT": "Hire me 😎"
+  },
+  "about": {
+    "title": "About",
+    "description": "Hi! I’m Daniel, a passionate web developer with nearly a decade of experience in the digital world. Since 2015, I’ve been immersed in the creation of websites and digital interfaces, blending design, strategy, and technology to craft meaningful user experiences.<br><br>While my current focus is on frontend development, my background includes roles as a multimedia designer, UI/UX designer, and web designer. I love contributing to projects from every angle — technical implementation, user experience, design aesthetics, and strategic impact.<br><br>I’m deeply driven by the idea of building technology that’s useful, intuitive, and genuinely helpful for people. I enjoy clean, well-structured, purpose-driven projects with clear goals and real-world value.<br><br>Beyond code, I’m also a creative soul — in my free time, you’ll find me experimenting with personal tech ideas or producing music that blends rock and electronic vibes.<br><br>My long-term goal is to become a well-rounded full-stack or cross-platform software developer, capable of delivering great solutions wherever they’re needed.",
+    "cvbtnTXT": "Download CV"
+  },
+  "projects": {
+    "title": "Projects"
+  },
   "contact": {
-    "title": "Contáctame",
-    "send": "Enviar mensaje"
+    "title": "Contact",
+    "subtitle": "Let’s grab a coffe 🍵",
+    "description": "Do you need help building a robust, optimized, and well-structured interface?<br>I'm ready to contribute my experience in front-end development.",
+    "ctaTXT": "Follow me on social media!",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "btn": "Send"
+    }
   }
 }

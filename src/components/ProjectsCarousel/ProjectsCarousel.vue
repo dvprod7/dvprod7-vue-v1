@@ -2,7 +2,7 @@
   <section class="projects-main">
     <div class="row center-content">
       <div class="col-10">
-        <h2>Proyectos</h2>
+        <h2>{{ t('projects.title') }}</h2>
       </div>
       <div class="col-2">
         <div class="carousel-nav-container">
@@ -50,7 +50,7 @@ import { useRouter } from 'vue-router'
 import ProjectCard from '@/components/ProjectCard/ProjectCard.vue'
 import useI18n from '@/lang/useLang'
 
-const { language } = useI18n()
+const { language, t } = useI18n()
 
 const currentSlide = ref(0)
 const projects = ref([])

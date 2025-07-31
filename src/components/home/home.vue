@@ -1,7 +1,9 @@
 <script setup>
+import useI18n from '@/lang/useLang';
 import SocialLinks from '@/components/SocialLinks/SocialLinks.vue';
 import ProjectsCarousel from '@/components/ProjectsCarousel/ProjectsCarousel.vue';
 import RotatingImages from '@/components/RotatingImages/RotatingImages.vue';
+const { t } = useI18n();
 </script>
 <template>
     <!-- Hero -->
@@ -9,20 +11,16 @@ import RotatingImages from '@/components/RotatingImages/RotatingImages.vue';
         <div class="row center-content">
             <div class="col-12 col-md-6">
                 <div class="name-txt__container">
-                    <span>Hi, I’m</span>
+                    <span>{{ t('hero.greeting') }}</span>
                     <div class="name-txt__title">
                         <h2 class="name">DANIEL VALENZUELA</h2>
                         <h2 class="profession">FRONT END DEVELOPER</h2>
                     </div>
                 </div>
-                <p class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.
-                </p>
+                <p class="description" v-html="t('hero.description')"></p>
                 <div class="call-to-action center-content start-content button-group">
-                    <button class="ui-btn ui-btn--lg">Projects</button>
-                    <button class="ui-btn dark-btn ui-btn--lg">Hire me 😎</button>
+                    <button class="ui-btn ui-btn--lg">{{ t('hero.projectsTXT') }}</button>
+                    <button class="ui-btn dark-btn ui-btn--lg">{{ t('hero.hiremeTXT') }}</button>
                 </div>
                 <SocialLinks />
             </div>
@@ -39,16 +37,9 @@ import RotatingImages from '@/components/RotatingImages/RotatingImages.vue';
             </div>
             <div class="col-12 col-md-6">
                 <div class="about-txt">
-                    <h2>About</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. <br><br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                    <button class="ui-btn">Download CV</button>
+                    <h2>{{ t('about.title') }}</h2>
+                    <p v-html="t('about.description')"></p>
+                    <button class="ui-btn">{{ t('about.cvbtnTXT') }}</button>
                 </div>
             </div>
         </div>
