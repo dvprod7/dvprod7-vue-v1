@@ -5,4 +5,15 @@
   margin-bottom: 4rem;
   display: flex;
   justify-content: center;
+
+  .project-hero__cta {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+
+    .ui-btn {
+      flex: 1;
+      text-align: center;
+    }
+  }
 }

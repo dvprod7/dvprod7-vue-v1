@@ -1,10 +1,3 @@
-<script setup>
-import useI18n from '@/lang/useLang';
-import SocialLinks from '@/components/SocialLinks/SocialLinks.vue';
-import ProjectsCarousel from '@/components/ProjectsCarousel/ProjectsCarousel.vue';
-import RotatingImages from '@/components/RotatingImages/RotatingImages.vue';
-const { t } = useI18n();
-</script>
 <template>
     <!-- Hero -->
     <section class="hero__container" id="hero-section">
@@ -19,8 +12,8 @@ const { t } = useI18n();
                 </div>
                 <p class="description" v-html="t('hero.description')"></p>
                 <div class="call-to-action center-content start-content button-group">
-                    <button class="ui-btn ui-btn--lg">{{ t('hero.projectsTXT') }}</button>
-                    <button class="ui-btn dark-btn ui-btn--lg">{{ t('hero.hiremeTXT') }}</button>
+                    <a href="#projects" class="ui-btn ui-btn--lg">{{ t('hero.projectsTXT') }}</a>
+                    <a href="#contact" class="ui-btn dark-btn ui-btn--lg">{{ t('hero.hiremeTXT') }}</a>
                 </div>
                 <SocialLinks />
             </div>
@@ -54,3 +47,27 @@ const { t } = useI18n();
 @use '@/styles/grid';
 @use './home';
 </style>
+
+<script setup>
+import { onMounted } from 'vue'
+import { useRoute } from 'vue-router'
+import useI18n from '@/lang/useLang';
+import SocialLinks from '@/components/SocialLinks/SocialLinks.vue';
+import ProjectsCarousel from '@/components/ProjectsCarousel/ProjectsCarousel.vue';
+import RotatingImages from '@/components/RotatingImages/RotatingImages.vue';
+const { t } = useI18n();
+onMounted(() => {
+    const route = useRoute()
+    const section = route.query.scrollTo
+
+    if (section) {
+        const el = document.getElementById(section)
+        const offset = 120
+
+        if (el) {
+            const top = el.getBoundingClientRect().top + window.pageYOffset - offset
+            window.scrollTo({ top, behavior: 'smooth' })
+        }
+    }
+})
+</script>

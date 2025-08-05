@@ -7,6 +7,10 @@
     "excerpt": "Dubtoast Store es un proyecto personal de ecommerce especializado en la venta de beats musicales y combos de producción musical.",
     "image": "project-temp.jpg",
     "badge": ["Angular", "Bootstrap", "Firebase"],
+    "ctaTXTdetail": "Ver Proyecto",
+    "ctaTXTcode": "Ver Código",
+    "ctaTXTdeploy": "Ver Demo",
+    "ctaTXThireme": "Contrátame 😎",
     "skills": [
       {
         "name": "Angular",
@@ -34,7 +38,11 @@
     "description": "Este proyecto es mi portafolio personal, diseñado como una single-page application (SPA) desarrollada con Vue.js. Su propósito es presentar de forma clara y atractiva quién soy, mi experiencia profesional y algunos de los proyectos más representativos en los que he trabajado. Fue construido con un enfoque en el rendimiento, la escalabilidad y el diseño responsivo, buscando una navegación fluida y una experiencia intuitiva tanto en dispositivos móviles como de escritorio. Además de ser una vitrina de mi trabajo, este portafolio refleja mi estilo de desarrollo, mis principios de diseño y mi compromiso con escribir código limpio y mantenible.",
     "excerpt": "Este proyecto es mi portafolio personal, diseñado como una single-page application (SPA).",
     "image": "project-temp.jpg",
-    "badge": ["VueJS", "SCSS", "UI/UX"],
+    "badge": ["VueJS", "SCSS", "UI/UX", "Firebase"],
+    "ctaTXTdetail": "Ver Proyecto",
+    "ctaTXTcode": "Ver Código",
+    "ctaTXTdeploy": "Ver Demo",
+    "ctaTXThireme": "Contrátame 😎",
     "skills": [
       {
         "name": "Vue.js",
@@ -60,6 +68,10 @@
     "excerpt": "Dubtoast Store es un proyecto personal de ecommerce especializado en la venta de beats musicales y combos de producción musical.",
     "image": "project-temp.jpg",
     "badge": ["Angular", "Bootstrap", "Firebase"],
+    "ctaTXTdetail": "Ver Proyecto",
+    "ctaTXTcode": "Ver Código",
+    "ctaTXTdeploy": "Ver Demo",
+    "ctaTXThireme": "Contrátame 😎",
     "skills": [
       {
         "name": "Angular",
@@ -87,7 +99,11 @@
     "description": "Este proyecto es mi portafolio personal, diseñado como una single-page application (SPA) desarrollada con Vue.js. Su propósito es presentar de forma clara y atractiva quién soy, mi experiencia profesional y algunos de los proyectos más representativos en los que he trabajado. Fue construido con un enfoque en el rendimiento, la escalabilidad y el diseño responsivo, buscando una navegación fluida y una experiencia intuitiva tanto en dispositivos móviles como de escritorio. Además de ser una vitrina de mi trabajo, este portafolio refleja mi estilo de desarrollo, mis principios de diseño y mi compromiso con escribir código limpio y mantenible.",
     "excerpt": "Este proyecto es mi portafolio personal, diseñado como una single-page application (SPA).",
     "image": "project-temp.jpg",
-    "badge": ["VueJS", "SCSS", "UI/UX"],
+    "badge": ["VueJS", "SCSS", "UI/UX", "Firebase"],
+    "ctaTXTdetail": "Ver Proyecto",
+    "ctaTXTcode": "Ver Código",
+    "ctaTXTdeploy": "Ver Demo",
+    "ctaTXThireme": "Contrátame 😎",
     "skills": [
       {
         "name": "Vue.js",

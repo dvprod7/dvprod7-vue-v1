@@ -39,7 +39,7 @@
   }
 }
 
-// Columnas
+// Columnas base
 @for $i from 1 through $grid-columns {
   $width: math.div($i, $grid-columns);
 
@@ -50,7 +50,7 @@
   }
 }
 
-// Generar clases responsivas
+// Columnas responsivas
 @each $breakpoint, $size in $breakpoints {
   @media (min-width: $size) {
     @for $i from 1 through $grid-columns {
@@ -64,7 +64,29 @@
   }
 }
 
-// Helpers para centrar columnas en la fila
+// 🎯 Orden base (sin breakpoint)
+@for $i from 0 through $grid-columns {
+  .order-#{$i} {
+    order: $i;
+  }
+}
+
+// 🎯 Orden responsivo
+@each $breakpoint, $size in $breakpoints {
+  @media (max-width: $size) {
+    @for $i from 0 through $grid-columns {
+      .order-#{$breakpoint}-#{$i} {
+        order: $i;
+      }
+    }
+  }
+}
+
+// Helpers para justificar contenido
+.d-flex {
+  display: flex;
+}
+
 .center-content {
   display: flex;
   justify-content: center;
@@ -95,7 +117,7 @@
   justify-content: space-evenly;
 }
 
-// Alinear verticalmente
+// Helpers para alinear verticalmente
 .align-start {
   display: flex;
   align-items: flex-start;

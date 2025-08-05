@@ -1,42 +1,3 @@
-<script setup>
-import { ref, onMounted, onBeforeUnmount } from 'vue';
-import useI18n from '@/lang/useLang';
-
-const isOpen = ref(false);
-const menuRef = ref(null);
-
-const toggleMenu = () => {
-    isOpen.value = !isOpen.value;
-};
-const { t, setLanguage, language } = useI18n();
-
-function navigateAndClose(id) {
-    isOpen.value = false;
-    const el = document.getElementById(id);
-    const offset = 120;
-    const top = el.getBoundingClientRect().top + window.pageYOffset - offset;
-    window.scrollTo({ top, behavior: 'smooth' })
-}
-
-function handleClickOutside(event) {
-    if (
-        menuRef.value &&
-        !menuRef.value.contains(event.target) &&
-        !event.target.closest('button')
-    ) {
-        isOpen.value = false
-    }
-}
-
-onMounted(() => {
-    document.addEventListener('click', handleClickOutside)
-})
-
-onBeforeUnmount(() => {
-    document.removeEventListener('click', handleClickOutside)
-})
-</script>
-
 <template>
     <nav class="menu">
         <div class="main-logo">
@@ -54,9 +15,9 @@ onBeforeUnmount(() => {
             ☰
         </button>
         <ul ref="menuRef" :class="{ 'menu-items': true, 'active': isOpen }">
-            <li><a href="#about-section" @click="navigateAndClose('about-section')">{{ t('menu.about') }}</a></li>
-            <li><a href="#projects" @click="navigateAndClose('projects')">{{ t('menu.projects') }}</a></li>
-            <li><a href="#contact" @click="navigateAndClose('contact')">{{ t('menu.contact') }}</a></li>
+            <li><a @click="navigateAndClose('about-section')">{{ t('menu.about') }}</a></li>
+            <li><a @click="navigateAndClose('projects')">{{ t('menu.projects') }}</a></li>
+            <li><a @click="navigateAndClose('contact')">{{ t('menu.contact') }}</a></li>
             <li class="lng-container">
                 <button @click="setLanguage('es')" class="lng-button" :class="{ active: language === 'es' }">
                     <div class="flag-icon">
@@ -116,3 +77,53 @@ onBeforeUnmount(() => {
 @use '@/styles/grid';
 @use './menu';
 </style>
+
+<script setup>
+import { ref, onMounted, onBeforeUnmount } from 'vue';
+import { useRouter } from 'vue-router'
+import useI18n from '@/lang/useLang';
+
+const isOpen = ref(false);
+const menuRef = ref(null);
+const router = useRouter()
+
+const toggleMenu = () => {
+    isOpen.value = !isOpen.value;
+};
+const { t, setLanguage, language } = useI18n();
+
+function navigateAndClose(id) {
+    isOpen.value = false
+
+    // Si no estamos en la raíz, redirigimos con query
+    if (router.currentRoute.value.path !== '/') {
+        router.push({ path: '/', query: { scrollTo: id } })
+    } else {
+        const el = document.getElementById(id)
+        const offset = 120
+
+        if (el) {
+            const top = el.getBoundingClientRect().top + window.pageYOffset - offset
+            window.scrollTo({ top, behavior: 'smooth' })
+        }
+    }
+}
+
+function handleClickOutside(event) {
+    if (
+        menuRef.value &&
+        !menuRef.value.contains(event.target) &&
+        !event.target.closest('button')
+    ) {
+        isOpen.value = false
+    }
+}
+
+onMounted(() => {
+    document.addEventListener('click', handleClickOutside)
+})
+
+onBeforeUnmount(() => {
+    document.removeEventListener('click', handleClickOutside)
+})
+</script>

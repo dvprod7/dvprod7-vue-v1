@@ -46,6 +46,10 @@
         gap: 1rem;
         list-style: none;
 
+        a {
+            cursor: pointer;
+        }
+
         @media (max-width: 768px) {
             flex-direction: column;
             position: absolute;

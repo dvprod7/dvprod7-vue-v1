@@ -113,6 +113,21 @@ h6 {
     }
   }
 
+  &.blue-btn {
+    background-color: $primary-blue;
+    color: $bg-light;
+
+    &:hover {
+      background-color: $bg-dark;
+      color: $bg-light;
+    }
+
+    &:focus,
+    &:focus-visible {
+      outline: 4px auto -webkit-focus-ring-color;
+    }
+  }
+
   &--sm {
     padding: 0.25rem 0.75rem;
     font-size: 0.875rem;
