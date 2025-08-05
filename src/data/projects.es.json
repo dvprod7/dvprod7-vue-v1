@@ -14,17 +14,32 @@
     "skills": [
       {
         "name": "Angular",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?",
+        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?",
         "icon": "/src/assets/vue.svg"
       },
       {
         "name": "Bootstrap",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?",
+        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?",
         "icon": "/src/assets/vue.svg"
       },
       {
         "name": "Firebase",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?",
+        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?",
+        "icon": "/src/assets/vue.svg"
+      },
+      {
+        "name": "Firebase",
+        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?",
+        "icon": "/src/assets/vue.svg"
+      },
+      {
+        "name": "Firebase",
+        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?",
+        "icon": "/src/assets/vue.svg"
+      },
+      {
+        "name": "Firebase",
+        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?",
         "icon": "/src/assets/vue.svg"
       }
     ],
@@ -46,15 +61,15 @@
     "skills": [
       {
         "name": "Vue.js",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?."
+        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?."
       },
       {
         "name": "SCSS",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?"
+        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?"
       },
       {
         "name": "UI/UX",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?"
+        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?"
       }
     ],
     "deployURL": "https://dvprod7.github.io/dvprod7/",
@@ -75,17 +90,17 @@
     "skills": [
       {
         "name": "Angular",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?",
+        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?",
         "icon": "/src/assets/vue.svg"
       },
       {
         "name": "Bootstrap",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?",
+        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?",
         "icon": "/src/assets/vue.svg"
       },
       {
         "name": "Firebase",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?",
+        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?",
         "icon": "/src/assets/vue.svg"
       }
     ],
@@ -107,15 +122,15 @@
     "skills": [
       {
         "name": "Vue.js",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?."
+        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?."
       },
       {
         "name": "SCSS",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?"
+        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?"
       },
       {
         "name": "UI/UX",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?"
+        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?"
       }
     ],
     "deployURL": "https://dvprod7.github.io/dvprod7/",

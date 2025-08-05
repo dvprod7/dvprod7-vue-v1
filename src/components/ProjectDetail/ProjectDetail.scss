@@ -16,4 +16,27 @@
       text-align: center;
     }
   }
+
+  .hero-img {
+    img {
+      @media (min-width: 992px) {
+        width: 60%;
+      }
+    }
+  }
+}
+
+.project-skills__container {
+  margin: 7rem auto;
+
+  .skill__container {
+    background-color: $primary-blue;
+    color: $text-light;
+    padding: 2rem;
+    margin-bottom: 1rem;
+
+    p {
+      font-family: $VisuelLight;
+    }
+  }
 }

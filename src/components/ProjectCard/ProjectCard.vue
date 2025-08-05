@@ -11,7 +11,7 @@
       <p class="card__excerpt">{{ project.excerpt }}</p>
       <div class="card__cta">
         <router-link :to="`/project/${project.slug}`" class="ui-btn card__btn">{{ project.ctaTXTdetail }}</router-link>
-        <a :href="project.codeUrl" target="_blank" class="ui-btn card__btn">{{ project.ctaTXTcode }}</a>
+        <a :href="project.codeURL" target="_blank" class="ui-btn card__btn">{{ project.ctaTXTcode }}</a>
       </div>
     </div>
   </div>

@@ -8,12 +8,26 @@
           <p v-html="project.description"></p>
           <div class="project-hero__cta">
             <a :href="project.deployURL" class="ui-btn">{{ project.ctaTXTdeploy }}</a>
-            <a :href="project.codeUrl" class="ui-btn blue-btn">{{ project.ctaTXTcode }}</a>
+            <a :href="project.codeURL" class="ui-btn blue-btn">{{ project.ctaTXTcode }}</a>
             <a href="#contact" class="ui-btn dark-btn">{{ project.ctaTXThireme }}</a>
           </div>
         </div>
         <div class="col-12 col-md-6 order-2 order-sm-1 center-content hero-img">
           <img :src="getImagePath(project.image)" alt="Temp" class="img-fluid">
+        </div>
+      </div>
+    </section>
+    <!-- skills -->
+    <section class="project-skills__container center-content">
+      <div class="row">
+        <div class="col-12 col-md-4" v-for="(skill, index) in skills" :key="index">
+          <div class="skill__container">
+            <img :src="getImagePath(skill.icon)" alt="temp" class="skill-icon" />
+            <div class="skill-info">
+              <h3 class="skill-name">{{ skill.name }}</h3>
+              <p class="skill-description">{{ skill.description }}</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -46,6 +60,9 @@ const route = useRoute()
 const { language } = useI18n()
 const slug = route.params.slug
 const images = import.meta.glob('@/assets/*', { eager: true })
+const skills = computed(() => {
+  return project.value?.skills || []
+})
 
 // Decidir cuál lista de proyectos usar según el idioma
 const selectedProjects = computed(() => {
