@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "slug": "dubtoast-ecommerce",
     "title": "Dubtoast Ecommerce",
     "description": "Dubtoast Store es un proyecto personal de ecommerce especializado en la venta de beats musicales y combos de producción musical. Fue desarrollado desde cero con Angular como reto autodidacta, con el objetivo de evitar plataformas como WordPress o WooCommerce, y así explorar de forma profunda cómo construir una tienda digital completa sin depender de soluciones prefabricadas.<br><br> La interfaz incluye animaciones suaves, filtros laterales funcionales, carrito de compras con interacción en tiempo real y una vista de detalle por producto. El diseño está pensado para ofrecer una experiencia minimalista y enfocada en el productor musical.",
     "excerpt": "Dubtoast Store es un proyecto personal de ecommerce especializado en la venta de beats musicales y combos de producción musical.",
@@ -28,6 +29,7 @@
   },
   {
     "id": 2,
+    "slug": "vue-portfolio-landing",
     "title": "Portafolio dvprod7",
     "description": "Este proyecto es mi portafolio personal, diseñado como una single-page application (SPA) desarrollada con Vue.js. Su propósito es presentar de forma clara y atractiva quién soy, mi experiencia profesional y algunos de los proyectos más representativos en los que he trabajado. Fue construido con un enfoque en el rendimiento, la escalabilidad y el diseño responsivo, buscando una navegación fluida y una experiencia intuitiva tanto en dispositivos móviles como de escritorio. Además de ser una vitrina de mi trabajo, este portafolio refleja mi estilo de desarrollo, mis principios de diseño y mi compromiso con escribir código limpio y mantenible.",
     "excerpt": "Este proyecto es mi portafolio personal, diseñado como una single-page application (SPA).",
@@ -52,6 +54,7 @@
   },
   {
     "id": 3,
+    "slug": "dubtoast-ecommerce",
     "title": "Dubtoast Ecommerce",
     "description": "Dubtoast Store es un proyecto personal de ecommerce especializado en la venta de beats musicales y combos de producción musical. Fue desarrollado desde cero con Angular como reto autodidacta, con el objetivo de evitar plataformas como WordPress o WooCommerce, y así explorar de forma profunda cómo construir una tienda digital completa sin depender de soluciones prefabricadas.<br><br> La interfaz incluye animaciones suaves, filtros laterales funcionales, carrito de compras con interacción en tiempo real y una vista de detalle por producto. El diseño está pensado para ofrecer una experiencia minimalista y enfocada en el productor musical.",
     "excerpt": "Dubtoast Store es un proyecto personal de ecommerce especializado en la venta de beats musicales y combos de producción musical.",
@@ -79,6 +82,7 @@
   },
   {
     "id": 4,
+    "slug": "vue-portfolio-landing",
     "title": "Portafolio dvprod7",
     "description": "Este proyecto es mi portafolio personal, diseñado como una single-page application (SPA) desarrollada con Vue.js. Su propósito es presentar de forma clara y atractiva quién soy, mi experiencia profesional y algunos de los proyectos más representativos en los que he trabajado. Fue construido con un enfoque en el rendimiento, la escalabilidad y el diseño responsivo, buscando una navegación fluida y una experiencia intuitiva tanto en dispositivos móviles como de escritorio. Además de ser una vitrina de mi trabajo, este portafolio refleja mi estilo de desarrollo, mis principios de diseño y mi compromiso con escribir código limpio y mantenible.",
     "excerpt": "Este proyecto es mi portafolio personal, diseñado como una single-page application (SPA).",

@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "slug": "dubtoast-ecommerce",
     "title": "Dubtoast Ecommerce",
     "description": "Dubtoast Store is a personal e-commerce project specializing in the sale of music beats and music production combos. It was developed from the ground up with Angular as a self-taught challenge, with the goal of avoiding platforms like WordPress or WooCommerce, and thus deeply exploring how to build a complete digital store without relying on pre-made solutions. <br><br> The interface includes smooth animations, functional side filters, a shopping cart with real-time interaction, and a detailed view for each product. The design is intended to offer a minimalist experience focused on the music producer.",
     "excerpt": "Dubtoast Store is a personal e-commerce project specializing in the sale of music beats and music production combos.",
@@ -28,6 +29,7 @@
   },
   {
     "id": 2,
+    "slug": "vue-portfolio-landing",
     "title": "Web portfolio dvprod7",
     "description": "This project is my personal portfolio, designed as a single-page application (SPA) developed with Vue.js. Its purpose is to clearly and attractively present who I am, my professional experience, and some of the most representative projects I've worked on. It was built with a focus on performance, scalability, and responsive design, seeking fluid navigation and an intuitive experience on both mobile and desktop devices. In addition to being a showcase of my work, this portfolio reflects my development style, my design principles, and my commitment to writing clean and maintainable code.",
     "excerpt": "This project is my personal portfolio, designed as a single-page application (SPA)",
@@ -52,6 +54,7 @@
   },
   {
     "id": 3,
+    "slug": "dubtoast-ecommerce",
     "title": "Dubtoast Ecommerce",
     "description": "Dubtoast Store is a personal e-commerce project specializing in the sale of music beats and music production combos. It was developed from the ground up with Angular as a self-taught challenge, with the goal of avoiding platforms like WordPress or WooCommerce, and thus deeply exploring how to build a complete digital store without relying on pre-made solutions. <br><br> The interface includes smooth animations, functional side filters, a shopping cart with real-time interaction, and a detailed view for each product. The design is intended to offer a minimalist experience focused on the music producer.",
     "excerpt": "Dubtoast Store is a personal e-commerce project specializing in the sale of music beats and music production combos.",
@@ -79,6 +82,7 @@
   },
   {
     "id": 4,
+    "slug": "vue-portfolio-landing",
     "title": "Web portfolio dvprod7",
     "description": "This project is my personal portfolio, designed as a single-page application (SPA) developed with Vue.js. Its purpose is to clearly and attractively present who I am, my professional experience, and some of the most representative projects I've worked on. It was built with a focus on performance, scalability, and responsive design, seeking fluid navigation and an intuitive experience on both mobile and desktop devices. In addition to being a showcase of my work, this portfolio reflects my development style, my design principles, and my commitment to writing clean and maintainable code.",
     "excerpt": "This project is my personal portfolio, designed as a single-page application (SPA)",

@@ -1,6 +1,5 @@
 <template>
   <div v-if="project">
-    <!-- Hero -->
     <section class="project-hero__container">
       <div class="row center-content">
         <div class="col-12 col-md-6">
@@ -24,7 +23,7 @@
 </style>
 
 <script setup>
-import { computed, watch } from 'vue'
+import { computed, watch, onMounted, nextTick } from 'vue'
 import { useRoute } from 'vue-router'
 import useI18n from '@/lang/useLang'
 import projectsDataEs from '@/data/projects.es.json'
@@ -32,22 +31,34 @@ import projectsDataEn from '@/data/projects.en.json'
 
 const route = useRoute()
 const { language } = useI18n()
+const slug = route.params.slug
 
 // Decidir cuál lista de proyectos usar según el idioma
 const selectedProjects = computed(() => {
   return language.value === 'es' ? projectsDataEs : projectsDataEn
 })
 
-// Capturamos el ID desde la URL y lo convertimos a número
-const projectId = computed(() => Number(route.params.id))
+// Capturamos el slug 
+/* const projectId = computed(() => Number(route.params.id)) */
 
-// Buscamos el proyecto por id en la lista correcta
+// Buscamos el proyecto por slug en la lista correcta
 const project = computed(() => {
-  return selectedProjects.value.find(p => p.id === projectId.value)
+  return selectedProjects.value.find(p => p.slug === slug)
 })
 
-// Solo para debug
-watch(project, (val) => {
-  console.log('Proyecto encontrado:', val)
+const scrollToTop = () => {
+  nextTick(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  })
+}
+
+// 🔹 Al montar el componente (cuando entras directo desde otra ruta)
+onMounted(() => {
+  scrollToTop()
+})
+
+// 🔹 Cuando cambia el ID del proyecto (navegación interna)
+watch(() => route.params.id, () => {
+  scrollToTop()
 })
 </script>

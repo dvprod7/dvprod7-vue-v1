@@ -5,7 +5,7 @@ const { t } = useI18n();
 </script>
 
 <template>
-    <section class="contact" id="#contact">
+    <section class="contact" id="contact">
         <div class="row center-content">
             <div class="col-12 col-md-8 col-lg-12">
                 <h2 class="section-title">{{ t('contact.title') }}</h2>

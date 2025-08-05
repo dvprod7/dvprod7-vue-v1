@@ -51,7 +51,6 @@ import ProjectCard from '@/components/ProjectCard/ProjectCard.vue'
 import useI18n from '@/lang/useLang'
 
 const { language, t } = useI18n()
-
 const currentSlide = ref(0)
 const projects = ref([])
 const isMobile = ref(false)
