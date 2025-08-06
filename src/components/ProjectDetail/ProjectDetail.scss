@@ -6,6 +6,10 @@
   display: flex;
   justify-content: center;
 
+  @media (max-width: 768px) {
+    margin-top: 150px;
+  }
+
   .project-hero__cta {
     display: flex;
     justify-content: space-between;
@@ -14,13 +18,17 @@
     .ui-btn {
       flex: 1;
       text-align: center;
+
+      &.ui-btn--md {
+        font-size: 0.7rem;
+      }
     }
   }
 
   .hero-img {
     img {
       @media (min-width: 992px) {
-        width: 60%;
+        width: 85%;
       }
     }
   }
@@ -33,7 +41,7 @@
     background-color: $primary-blue;
     color: $text-light;
     padding: 2rem;
-    margin-bottom: 1rem;
+    height: 100%;
 
     p {
       font-family: $VisuelLight;

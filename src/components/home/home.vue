@@ -18,7 +18,7 @@
                 <SocialLinks />
             </div>
             <div class="col-12 col-md-6 center-content hero-img">
-                <img src="../../assets/profile.jpg" alt="Temp" class="img-fluid">
+                <img src="../../assets/profile-alt-dv-1.jpg" alt="Daniel Valenzuela" class="img-fluid">
             </div>
         </div>
     </section>

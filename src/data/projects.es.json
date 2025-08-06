@@ -3,10 +3,10 @@
     "id": 1,
     "slug": "dubtoast-ecommerce",
     "title": "Dubtoast Ecommerce",
-    "description": "Dubtoast Store es un proyecto personal de ecommerce especializado en la venta de beats musicales y combos de producción musical. Fue desarrollado desde cero con Angular como reto autodidacta, con el objetivo de evitar plataformas como WordPress o WooCommerce, y así explorar de forma profunda cómo construir una tienda digital completa sin depender de soluciones prefabricadas.<br><br> La interfaz incluye animaciones suaves, filtros laterales funcionales, carrito de compras con interacción en tiempo real y una vista de detalle por producto. El diseño está pensado para ofrecer una experiencia minimalista y enfocada en el productor musical.",
+    "description": "Dubtoast Store es un proyecto personal de ecommerce especializado en la venta de beats musicales y combos de producción musical. Fue desarrollado desde cero con Angular como reto autodidacta, con el objetivo de evitar plataformas como WordPress o WooCommerce, y así explorar de forma profunda cómo construir una tienda digital completa sin depender de soluciones prefabricadas.<br><br> La interfaz incluye animaciones suaves, carrito de compras con interacción en tiempo real y una vista de detalle por producto. El diseño está pensado para ofrecer una experiencia minimalista y enfocada en el productor musical.",
     "excerpt": "Dubtoast Store es un proyecto personal de ecommerce especializado en la venta de beats musicales y combos de producción musical.",
-    "image": "project-temp.jpg",
-    "badge": ["Angular", "Bootstrap", "Firebase"],
+    "image": "dubtoast-store.jpg",
+    "badge": ["Angular", "Bootstrap", "Firebase", "UI/UX"],
     "ctaTXTdetail": "Ver Proyecto",
     "ctaTXTcode": "Ver Código",
     "ctaTXTdeploy": "Ver Demo",
@@ -14,33 +14,23 @@
     "skills": [
       {
         "name": "Angular",
-        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?",
-        "icon": "/src/assets/vue.svg"
+        "description": "Angular fue la columna vertebral del proyecto, permitiéndome estructurar la aplicación como una SPA robusta y escalable. Aproveché su sistema de módulos y servicios para organizar el flujo de datos, y usé el enrutamiento dinámico para crear una experiencia fluida entre la vista de productos, el carrito y el login. También integré formularios reactivos y pipes personalizados para controlar las vistas y mejorar la experiencia del usuario.",
+        "icon": "/src/assets/angular.svg"
       },
       {
         "name": "Bootstrap",
-        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?",
-        "icon": "/src/assets/vue.svg"
+        "description": "Bootstrap sirvió como base para la maquetación inicial, ayudándome a construir una estructura responsive rápidamente. Aproveché sus utilidades de grid y componentes prediseñados para acelerar el desarrollo, pero también personalicé estilos con SCSS para que encajaran con la estética futurista del proyecto, manteniendo el control sobre la identidad visual sin limitarme al look clásico de Bootstrap.",
+        "icon": "/src/assets/bootstrap.svg"
       },
       {
         "name": "Firebase",
-        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?",
-        "icon": "/src/assets/vue.svg"
+        "description": "Firebase fue clave tanto en el despliegue del proyecto como en algunas funcionalidades básicas. Lo utilicé para hacer el deploy del sitio de forma sencilla y efectiva con hosting gratuito, lo que me permitió tener una versión online lista para pruebas. También exploré brevemente su autenticación como parte del sistema de login, abriendo camino para futuras integraciones más avanzadas.",
+        "icon": "/src/assets/firebase.svg"
       },
       {
-        "name": "Firebase",
-        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?",
-        "icon": "/src/assets/vue.svg"
-      },
-      {
-        "name": "Firebase",
-        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?",
-        "icon": "/src/assets/vue.svg"
-      },
-      {
-        "name": "Firebase",
-        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?",
-        "icon": "/src/assets/vue.svg"
+        "name": "Diseño UI/UX",
+        "description": "Todo el diseño visual de Dubtoast Store fue creado desde cero, con el objetivo de ofrecer una experiencia centrada en productores musicales. Aposté por una interfaz minimalista con una escala de color pensada hacia la creatividad y tipografías modernas para transmitir una estética cyberpunk. Las animaciones suaves y la navegación intuitiva fueron pensadas para mantener al usuario enfocado en los beats sin distracciones, fusionando diseño visual con funcionalidad práctica.",
+        "icon": "/src/assets/design.svg"
       }
     ],
     "deployURL": "https://dubtoaststore.web.app/",
@@ -52,8 +42,8 @@
     "title": "Portafolio dvprod7",
     "description": "Este proyecto es mi portafolio personal, diseñado como una single-page application (SPA) desarrollada con Vue.js. Su propósito es presentar de forma clara y atractiva quién soy, mi experiencia profesional y algunos de los proyectos más representativos en los que he trabajado. Fue construido con un enfoque en el rendimiento, la escalabilidad y el diseño responsivo, buscando una navegación fluida y una experiencia intuitiva tanto en dispositivos móviles como de escritorio. Además de ser una vitrina de mi trabajo, este portafolio refleja mi estilo de desarrollo, mis principios de diseño y mi compromiso con escribir código limpio y mantenible.",
     "excerpt": "Este proyecto es mi portafolio personal, diseñado como una single-page application (SPA).",
-    "image": "project-temp.jpg",
-    "badge": ["VueJS", "SCSS", "UI/UX", "Firebase"],
+    "image": "dvprod7-web-portfolio.jpg",
+    "badge": ["VueJS", "Sass", "UI/UX", "Firebase"],
     "ctaTXTdetail": "Ver Proyecto",
     "ctaTXTcode": "Ver Código",
     "ctaTXTdeploy": "Ver Demo",
@@ -61,79 +51,92 @@
     "skills": [
       {
         "name": "Vue.js",
-        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?."
+        "description": "Vue.js fue la base del portafolio, permitiéndome construir una SPA rápida, fluida y completamente modular. Aproveché su sistema de componentes para estructurar secciones reutilizables como el menú, el carrusel de proyectos y el formulario de contacto. También implementé navegación con scroll suave entre secciones y vistas dinámicas para los detalles de proyectos, manteniendo el rendimiento óptimo y una experiencia de usuario sin interrupciones.",
+        "icon": "/src/assets/vue.svg"
       },
       {
-        "name": "SCSS",
-        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?"
+        "name": "Sistema de Diseño Modular con Sass",
+        "description": "Para este proyecto desarrollé un sistema de diseño personalizado con Sass, inspirado en la filosofía de Bootstrap pero adaptado completamente a mis necesidades. Definí variables, mixins y estructuras reutilizables que facilitaron la consistencia visual y la escalabilidad del código. Este enfoque me permitió mantener el control total del estilo sin sacrificar velocidad de desarrollo ni adaptabilidad entre dispositivos.",
+        "icon": "/src/assets/sass.svg"
       },
       {
-        "name": "UI/UX",
-        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?"
+        "name": "Firebase",
+        "description": "Firebase fue clave tanto en el despliegue del proyecto como en algunas funcionalidades básicas. Lo utilicé para hacer el deploy del sitio de forma sencilla y efectiva con hosting gratuito, lo que me permitió tener una versión online lista para mostrar.",
+        "icon": "/src/assets/firebase.svg"
+      },
+      {
+        "name": "Diseño UI/UX",
+        "description": "El diseño del portafolio refleja mi enfoque minimalista con una estética moderna y tecnológica. Utilicé una paleta de colores vibrante, enfocada en transmitir energía, innovación y profesionalismo, sin recargar la interfaz. La disposición clara de los contenidos, la jerarquía visual y las microinteracciones están pensadas para guiar al visitante de forma natural, maximizando la experiencia sin distraer del contenido clave.",
+        "icon": "/src/assets/design.svg"
       }
     ],
-    "deployURL": "https://dvprod7.github.io/dvprod7/",
+    "deployURL": "https://dvprod7-2ed72.web.app/",
     "codeURL": "hhttps://github.com/dvprod7/dvprod7"
   },
   {
     "id": 3,
-    "slug": "dubtoast-ecommerce",
-    "title": "Dubtoast Ecommerce",
-    "description": "Dubtoast Store es un proyecto personal de ecommerce especializado en la venta de beats musicales y combos de producción musical. Fue desarrollado desde cero con Angular como reto autodidacta, con el objetivo de evitar plataformas como WordPress o WooCommerce, y así explorar de forma profunda cómo construir una tienda digital completa sin depender de soluciones prefabricadas.<br><br> La interfaz incluye animaciones suaves, filtros laterales funcionales, carrito de compras con interacción en tiempo real y una vista de detalle por producto. El diseño está pensado para ofrecer una experiencia minimalista y enfocada en el productor musical.",
-    "excerpt": "Dubtoast Store es un proyecto personal de ecommerce especializado en la venta de beats musicales y combos de producción musical.",
-    "image": "project-temp.jpg",
-    "badge": ["Angular", "Bootstrap", "Firebase"],
+    "slug": "bmw-lms-interface",
+    "title": "Interface BMW Group LMS",
+    "description": "Este proyecto fue una propuesta de interfaz gráfica para un sistema de educación virtual dirigido a ingenieros de BMW Group especializados en mecánica y electrónica de alto voltaje. Su objetivo era facilitar la actualización continua de contenidos formativos especializados, a través de una experiencia moderna, intuitiva y visualmente sólida.<br><br>La propuesta no solo contemplaba un entorno atractivo para la presentación de contenidos, sino también un sistema completo de gamificación que incluía puntos, tablas de resultados, métricas de rendimiento y seguimiento de finalización. Todo el ecosistema fue diseñado para alinear la experiencia educativa con los estándares de calidad, innovación y precisión que caracterizan a BMW Group.",
+    "excerpt": "Concepto visual y la interfaz de un sistema LMS (Learning Management System) para la marca BMW Group.",
+    "image": "bmw-lms-interface.jpg",
+    "badge": ["Adobe XD", "UI/UX", "Animación"],
     "ctaTXTdetail": "Ver Proyecto",
     "ctaTXTcode": "Ver Código",
     "ctaTXTdeploy": "Ver Demo",
     "ctaTXThireme": "Contrátame 😎",
     "skills": [
       {
-        "name": "Angular",
-        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?",
-        "icon": "/src/assets/vue.svg"
+        "name": "Adobe XD",
+        "description": "En su momento, desarrollé todo el sistema visual en Adobe XD, aprovechando al máximo sus herramientas de diseño, prototipado y documentación. El flujo incluía interacción entre pantallas, componentes reutilizables y animaciones simuladas. Aunque actualmente utilizo Figma como herramienta principal, este proyecto representa una etapa clave donde consolidé mi metodología de diseño estructurado y presentación profesional de interfaces.",
+        "icon": "/src/assets/adobe-xd.svg"
       },
       {
-        "name": "Bootstrap",
-        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?",
-        "icon": "/src/assets/vue.svg"
+        "name": "Diseño UI/UX",
+        "description": "Todo el diseño de experiencia y la interfaz se construyó desde cero, definiendo un ecosistema enfocado en la educación interactiva para los técnicos de BMW Group. Se diseñaron rutas de aprendizaje, interfaces para quizzes, tablas de resultados y métricas de rendimiento, entrenamientos, visualización de contenidos educativos y módulos de evaluación, siempre siguiendo los principios de usabilidad, jerarquía visual clara y alineación con los estándares de experiencia de usuario moderna.",
+        "icon": "/src/assets/design.svg"
       },
       {
-        "name": "Firebase",
-        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?",
-        "icon": "/src/assets/vue.svg"
+        "name": "Animación",
+        "description": "Como parte del enfoque interactivo, propuse una línea de animaciones suaves y funcionales inspiradas en la navegación de sitios oficiales de BMW Group en Europa. Las transiciones y efectos fueron diseñados para aportar fluidez sin comprometer el rendimiento, añadiendo dinamismo y reforzando la sensación de tecnología de punta en la interfaz.",
+        "icon": "/src/assets/animation.svg"
+      },
+      {
+        "name": "Identidad visual",
+        "description": "El diseño se ajustó rigurosamente al manual de marca de BMW Group, respetando su paleta cromática, tipografía, uso de logotipos y estilos visuales. La propuesta buscó no solo cumplir con los lineamientos, sino potenciarlos en un entorno educativo digital, generando una experiencia inmersiva y alineada con la imagen corporativa de la marca.",
+        "icon": "/src/assets/brand.svg"
       }
     ],
-    "deployURL": "https://dubtoaststore.web.app/",
-    "codeURL": "https://github.com/dvprod7/dubtoast-store"
+    "deployURL": "https://www.behance.net/gallery/96173639/LXP-LMS-Design-System-for-BMW-Group",
+    "codeURL": "https://www.behance.net/gallery/96173639/LXP-LMS-Design-System-for-BMW-Group"
   },
   {
     "id": 4,
-    "slug": "vue-portfolio-landing",
-    "title": "Portafolio dvprod7",
-    "description": "Este proyecto es mi portafolio personal, diseñado como una single-page application (SPA) desarrollada con Vue.js. Su propósito es presentar de forma clara y atractiva quién soy, mi experiencia profesional y algunos de los proyectos más representativos en los que he trabajado. Fue construido con un enfoque en el rendimiento, la escalabilidad y el diseño responsivo, buscando una navegación fluida y una experiencia intuitiva tanto en dispositivos móviles como de escritorio. Además de ser una vitrina de mi trabajo, este portafolio refleja mi estilo de desarrollo, mis principios de diseño y mi compromiso con escribir código limpio y mantenible.",
-    "excerpt": "Este proyecto es mi portafolio personal, diseñado como una single-page application (SPA).",
+    "slug": "firebase-contact-service",
+    "title": "Firebase Contact Service (en desarrollo)",
+    "description": "Este proyecto busca implementar un microservicio con Firebase para gestionar los envíos del formulario de contacto de mi portafolio personal. La idea es reemplazar soluciones tradicionales como mailto: o servicios de terceros, y construir una arquitectura más escalable y segura utilizando Firebase Functions, Firestore y autenticación básica.<br><br>Actualmente se encuentra en fase de planificación e implementación inicial, y representa un paso hacia una estructura más profesional y orientada a microservicios en mis proyectos personales.",
+    "excerpt": "Un microservicio con Firebase para gestionar los envíos del formulario de contacto de mi portafolio personal.",
     "image": "project-temp.jpg",
-    "badge": ["VueJS", "SCSS", "UI/UX", "Firebase"],
+    "badge": ["Firebase", "NodeJS", "Backend"],
     "ctaTXTdetail": "Ver Proyecto",
     "ctaTXTcode": "Ver Código",
     "ctaTXTdeploy": "Ver Demo",
     "ctaTXThireme": "Contrátame 😎",
     "skills": [
       {
-        "name": "Vue.js",
+        "name": "Firebase",
         "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?."
       },
       {
-        "name": "SCSS",
+        "name": "NodeJS",
         "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?"
       },
       {
-        "name": "UI/UX",
+        "name": "Backend",
         "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?"
       }
     ],
-    "deployURL": "https://dvprod7.github.io/dvprod7/",
-    "codeURL": "hhttps://github.com/dvprod7/dvprod7"
+    "deployURL": "#",
+    "codeURL": "https://github.com/dvprod7/firebase-contact-service"
   }
 ]  

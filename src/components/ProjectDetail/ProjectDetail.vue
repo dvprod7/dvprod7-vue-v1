@@ -7,9 +7,9 @@
           <h2>{{ project.title }}</h2>
           <p v-html="project.description"></p>
           <div class="project-hero__cta">
-            <a :href="project.deployURL" class="ui-btn">{{ project.ctaTXTdeploy }}</a>
-            <a :href="project.codeURL" class="ui-btn blue-btn">{{ project.ctaTXTcode }}</a>
-            <a href="#contact" class="ui-btn dark-btn">{{ project.ctaTXThireme }}</a>
+            <a :href="project.deployURL" target="_blank" class="ui-btn ui-btn--md">{{ project.ctaTXTdeploy }}</a>
+            <a :href="project.codeURL" target="_blank" class="ui-btn ui-btn--md blue-btn">{{ project.ctaTXTcode }}</a>
+            <a href="#contact" class="ui-btn ui-btn--md dark-btn">{{ project.ctaTXThireme }}</a>
           </div>
         </div>
         <div class="col-12 col-md-6 order-2 order-sm-1 center-content hero-img">
