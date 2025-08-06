@@ -122,20 +122,6 @@
     "ctaTXTcode": "Ver Código",
     "ctaTXTdeploy": "Ver Demo",
     "ctaTXThireme": "Contrátame 😎",
-    "skills": [
-      {
-        "name": "Firebase",
-        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?."
-      },
-      {
-        "name": "NodeJS",
-        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?"
-      },
-      {
-        "name": "Backend",
-        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?"
-      }
-    ],
     "deployURL": "#",
     "codeURL": "https://github.com/dvprod7/firebase-contact-service"
   }

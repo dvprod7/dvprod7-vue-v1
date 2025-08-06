@@ -20,7 +20,9 @@
       text-align: center;
 
       &.ui-btn--md {
-        font-size: 0.7rem;
+        @media (max-width: 768px) {
+          font-size: 0.7rem;
+        }
       }
     }
   }

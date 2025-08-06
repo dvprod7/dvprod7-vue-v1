@@ -114,28 +114,14 @@
     "id": 4,
     "slug": "firebase-contact-service",
     "title": "Firebase Contact Service (en desarrollo)",
-    "description": "Este proyecto busca implementar un microservicio con Firebase para gestionar los envíos del formulario de contacto de mi portafolio personal. La idea es reemplazar soluciones tradicionales como mailto: o servicios de terceros, y construir una arquitectura más escalable y segura utilizando Firebase Functions, Firestore y autenticación básica.<br><br>Actualmente se encuentra en fase de planificación e implementación inicial, y representa un paso hacia una estructura más profesional y orientada a microservicios en mis proyectos personales.",
-    "excerpt": "Un microservicio con Firebase para gestionar los envíos del formulario de contacto de mi portafolio personal.",
+    "description": "This project aims to implement a microservice with Firebase to manage contact form submissions for my personal portfolio. The idea is to replace traditional solutions like mailto: or third-party services, and build a more scalable and secure architecture using Firebase Functions, Firestore, and Basic Auth. <br><br>Currently in the planning and initial implementation phase, it represents a step towards a more professional, microservice-oriented structure for my personal projects.",
+    "excerpt": "A Firebase-powered microservice to manage contact form submissions for my personal portfolio.",
     "image": "project-temp.jpg",
     "badge": ["Firebase", "NodeJS", "Backend"],
     "ctaTXTdetail": "View Project",
     "ctaTXTcode": "View Code",
     "ctaTXTdeploy": "View Demo",
     "ctaTXThireme": "Hire Me 😎",
-    "skills": [
-      {
-        "name": "Firebase",
-        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?."
-      },
-      {
-        "name": "NodeJS",
-        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?"
-      },
-      {
-        "name": "Backend",
-        "description": "ESPAÑOL Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore ullam deserunt recusandae dolorum? Eos tempora nostrum rem exercitationem sunt nemo, veniam veritatis quis deserunt porro saepe ducimus velit laborum?"
-      }
-    ],
     "deployURL": "#",
     "codeURL": "https://github.com/dvprod7/firebase-contact-service"
   }
